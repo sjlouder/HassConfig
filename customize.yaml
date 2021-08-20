@@ -1,0 +1,28 @@
+sensor.thermostat_indicator:
+  friendly_name: Thermostat Indicator
+zwave.thermostat:
+  friendly_name: Thermostat Controller
+sensor.thermostat_battery_level:
+  friendly_name: Thermostat Battery Level
+climate.mode:
+  friendly_name: Thermostat Mode
+sensor.relative_humidity:
+  friendly_name: Relative Humidity
+sensor.relative_humidity_2:
+  friendly_name: Relative Humidity 2
+sensor.temperature:
+  friendly_name: Temperature
+sensor.temperature_2:
+  friendly_name: Temperature 2
+zwave.master_smoke_alarm:
+  friendly_name: Master Smoke Alarm
+sensor.master_smoke_alarm_battery_level:
+  friendly_name: Master Smoke Alarm Battery
+switch.master_bedroom_switch:
+  friendly_name: Master Fan
+zwave.master_bedroom_switch:
+  friendly_name: Master Fan Controller
+light.bed_light_1:
+  friendly_name: Bed Light 1
+zwave.usb_controller:
+  friendly_name: Z-Wave USB Controller
