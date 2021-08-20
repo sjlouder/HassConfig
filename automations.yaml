@@ -1,0 +1,35 @@
+- id: '1547939527852'
+  alias: Turn Off Fan
+  trigger:
+  - at: 07:45:00
+    platform: time
+  condition: []
+  action:
+  - alias: ''
+    data:
+      entity_id: switch.jasco_products_14291_in_wall_smart_switch_switch
+    service: switch.turn_off
+- id: '1547940783240'
+  alias: Turn On Fan
+  trigger:
+  - at: '21:00:00'
+    platform: time
+  condition: []
+  action:
+  - data:
+      entity_id: switch.jasco_products_14291_in_wall_smart_switch_switch
+    service: switch.turn_on
+- id: '1610349457844'
+  alias: Morning Warmup
+  description: ''
+  trigger:
+  - platform: time
+    at: '7:45'
+  condition: []
+  action:
+  - service: climate.set_hvac_mode
+    data:
+      hvac_mode: 'off'
+    target:
+      entity_id: climate.radio_thermostat_company_of_america_ct101_thermostat_iris_mode
+  mode: single
