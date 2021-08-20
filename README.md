@@ -1,0 +1,2 @@
+# HassConfig
+Home Assistant Configuration
